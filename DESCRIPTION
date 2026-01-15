@@ -9,6 +9,3 @@ License: GPL-2
 LazyLoad: yes
 URL: https://github.com/domijan/tabuSearch
 BugReports: https://github.com/domijan/tabuSearch/issues
-Suggests: 
-  MASS
-  e1071
