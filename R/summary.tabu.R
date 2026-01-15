@@ -1,26 +1,21 @@
 #' R Based Tabu Search Summary Function
-#' Summarizes the results of a tabu search optimization run.
+#'
 #'
 #' @param object a tabu object.
 #' @param verbose if true, the optimal configuration(s) will be printed.
 #' @param ... other options (ignored).
 #'
-#' @returns
+#' @returns a matrix of configurations from iterations with maximum value of objective function (i.e. Optimum configuration).
 #' @export
-#'
+#' @description Summarizes the results of a tabu search optimization run.
 #' @examples
 #' # A simple example
+#'
 #' evaluateSimple <- function(th)return(1)
 #' result <- tabuSearch(size = 20, iters = 100, objFunc = evaluateSimple)
+#'
 #' summary(result)
 #' summary(result, verbose = TRUE)
-#'
-#'
-#'
-#'
-
-#' @describeIn summary  summary method
-#' @export
 #'
 summary.tabu <-
 function (object, verbose = FALSE, ...)
