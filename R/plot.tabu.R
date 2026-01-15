@@ -41,5 +41,5 @@ function (x, type = "default", ...)
         par(def.par)#- reset to default
 }
     else  stop("error: Plot type not supported for a tabu object")
-    return(NULL)
+    invisible()
 }
