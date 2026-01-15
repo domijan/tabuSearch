@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "gray")
+importFrom("graphics", "image", "layout", "par", "plot")
+export(tabuSearch)  
+S3method(plot, tabu)
+S3method(summary, tabu)
